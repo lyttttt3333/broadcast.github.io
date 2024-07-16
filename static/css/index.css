@@ -111,14 +111,16 @@ body {
 }
 
 .results-carousel {
-  overflow: hidden;
+  overflow: visible;
+  align-items: center;
 }
 
 .results-carousel .item {
-  margin: 5px;
+  margin: 0px;
   overflow: hidden;
-  padding: 20px;
-  font-size: 0;
+  padding: 0px;
+  font-size: 100;
+  align-items: center;
 }
 
 .results-carousel video {
